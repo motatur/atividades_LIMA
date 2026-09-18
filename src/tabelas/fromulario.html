@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fromulario</title>
+</head>
+<body>
+    
+    <form>
+
+        <fieldset>
+            <legend>Informações de contato</legend>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+            <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="nome" placeholder="Seu e-mail" required>
+
+               
+
+            <br>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="passwd" placeholder="Senha:" required>
+
+                 <br>
+
+                 <label for="data">Data:</label>
+                 <input type="date" name="data" id="dates" required>
+
+                <br>
+
+                
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferencias: </legend>
+
+            <p>Informe sua cor:</p>
+            <label for="prefer"> <input type="radio" name="cor">Azul</label>
+            <label><input type="radio" name="cor">Vermelho</label>
+        <br>
+        
+        <p>Informe quais frutas voce quer</p>
+
+        <label><input type="checkbox" name="fruta">MAça</label>
+        <label><input type="checkbox" name="fruta">pitanga</label>
+        <br>
+
+            <label for="idioma"></label>
+            <select name="idioma" id="idioma">
+                <option value="0" disabled selected>Selecione:</option>
+                <option value="1">Portugues</option>
+                <option value="2">Ingles</option>
+            </select>
+
+            <br>
+
+            <label for="su">Sugestao</label>
+            <textarea name="sugestoes" id="sugestoes"></textarea>
+
+            <br>
+
+        </fieldset>
+
+         <button type="submit">Enviar</button>
+
+    </form>
+
+
+
+
+
+</body>
+</html>
